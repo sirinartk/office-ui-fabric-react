@@ -16,7 +16,9 @@
     "code-style": "npx just-scripts code-style",
     "just": "npx just-scripts",
     "start-test": "npx just-scripts jest-watch",
-    "update-snapshots": "npx just-scripts jest -u"
+    "update-snapshots": "npx just-scripts jest -u",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "just-scripts": "~0.17.0",
@@ -36,9 +38,11 @@
     "loader-utils": "^1.1.0",
     "prettier": "^1.12.1",
     "recast": "~0.15.0",
-    "tslib": "^1.7.1"
+    "tslib": "^1.7.1",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "webpack": ">=4.0.0"
-  }
+  },
+  "snyk": true
 }
