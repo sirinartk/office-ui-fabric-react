@@ -18,7 +18,7 @@
     "glob": "^7.1.2",
     "mkdirp": "^0.5.1",
     "office-ui-fabric-react": "^6.189.2",
-    "puppeteer": "^1.13.0",
+    "puppeteer": "^3.0.0",
     "tslib": "^1.7.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
